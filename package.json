@@ -1,0 +1,26 @@
+{
+  "name": "malefekt-travel-maps",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test-render": "node scripts/test-render.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "@remotion/player": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@vitejs/plugin-react": "6.2.1",
+    "express": "5.3.0",
+    "maplibre-gl": "5.24.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540",
+    "vite": "8.3.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}
